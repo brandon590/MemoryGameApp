@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Assignment_3_Memory_Game_AppApp: App {
+    
+    // The body defines what the app displays when it launches
     var body: some Scene {
+        
+        // WindowGroup creates the main window of the app
         WindowGroup {
-            ContentView()
+            MainGameView()
         }
     }
 }
